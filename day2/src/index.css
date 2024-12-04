@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Head;
+  src: url("./assets/fonts/heading.ttf");
+}
+*{
+  font-family: Head;
+}
+.main{
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.884),rgba(255, 255, 255, 0.87)),url("./assets/field.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
