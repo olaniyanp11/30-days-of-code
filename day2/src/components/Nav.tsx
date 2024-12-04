@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { BiDownArrow } from 'react-icons/bi'
 import { BsFacebook, BsGithub, BsYoutube } from 'react-icons/bs'
