@@ -59,8 +59,8 @@ export const Nav = () => {
 
                     </span>
                 </span>
-                <span className={`z-30 font-thin sm:hidden flex ${isOpen ? "w-full" : "w-0"} fixed bg-primary transition-all duration-1000  top-[-10%] flex-col text-white rounded-[70%] ${isOpen ? "h-[90%]" : "h-0"} pl-[20%] justify-center right-[-20%] `}>
-                    <BiX className='z-[123456789] text-[30px] absolute  top-[20%] right-[40%]' onClick={() => { setIsopen(false);}} />
+                <span className={`z-30 font-thin sm:hidden flex ${isOpen ? "w-full top-[0%] right-[0%] rounded-none" : "w-0"} fixed bg-primary transition-all duration-1000  top-[-10%] flex-col text-white rounded-[70%] ${isOpen ? "h-screen" : "h-0"}  justify-center items-center right-[-20%] text-[22px] `}>
+                    <BiX className='z-[123456789] text-[30px] absolute  top-[5%] right-[5%]' onClick={() => { setIsopen(false);}} />
                     <Link to='/'>Home</Link>
                     <Link to='/'>About us </Link>
                     <Link to='/'>Services</Link>
