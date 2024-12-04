@@ -5,9 +5,6 @@ import { BsFacebook, BsGithub, BsYoutube } from 'react-icons/bs'
 import { useState } from 'react'
 import { BiX } from 'react-icons/bi'
 import { BiMenu } from 'react-icons/bi'
-import scrollLock from "scroll-lock";
-import { disablePageScroll, enablePageScroll } from "scroll-lock"
-
 
 export const Nav = () => {
     const [dropdown, setDropdown] = useState<boolean>(false);
@@ -64,14 +61,14 @@ export const Nav = () => {
                     </span>
                 </span>
                 <span className={`z-30 font-thin sm:hidden flex ${isOpen ? "w-full" : "w-0"} fixed bg-primary transition-all duration-1000  top-[-10%] flex-col text-white rounded-[70%] ${isOpen ? "h-[90%]" : "h-0"} pl-[20%] justify-center right-[-20%] `}>
-                    <BiX className='z-[123456789] text-[30px] absolute  top-[20%] right-[40%]' onClick={() => { setIsopen(false); scrollLock.enablePageScroll() }} />
+                    <BiX className='z-[123456789] text-[30px] absolute  top-[20%] right-[40%]' onClick={() => { setIsopen(false);}} />
                     <Link to='/'>Home</Link>
                     <Link to='/'>About us </Link>
                     <Link to='/'>Services</Link>
                     <Link to='/'>Page</Link>
                     <Link to='/'> Contact</Link>
                 </span>
-                <BiMenu className='text-primary sm:hidden flex' onClick={() => { setIsopen(true); scrollLock.disablePageScroll() }} />
+                <BiMenu className='text-primary sm:hidden flex' onClick={() => { setIsopen(true);  }} />
                 <div className={`flex text-[#003630] sm:w-[10%] w-[20%] justify-between `}>
                     <BsFacebook className='hover:animate-ping' />
                     <BsGithub />
