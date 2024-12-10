@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: norm;
+    src: url("./fonts/Helvetica.ttf");
+}
+@font-face {
+    font-family: boldr;
+    src: url("./fonts/Helvetica-Bold.ttf");
+}
+*{
+    font-family: norm;
+}
+.bold{
+    font-family: boldr;
+}
+.main{
+    background-image: linear-gradient(90deg, #041401b7,#051b01a8),url("../src/assets/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
