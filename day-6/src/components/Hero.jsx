@@ -13,7 +13,7 @@ export const Hero = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1.1 }}
-                        className='text-white bold text-[50px] sm:text-[70px] leading-[1.0] tracking-wider'>Welcome to MouseMate </motion.h2>
+                        className='text-white bold text-[40px] sm:text-[70px] leading-[1.0] tracking-wider'>Welcome to MouseMate </motion.h2>
                     <motion.h3 initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1.3 }} className='text-white text-[14px] font-medium'>Your Ultimate Destination for Computer Mice</motion.h3>
