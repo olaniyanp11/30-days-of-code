@@ -1,6 +1,5 @@
 import React from 'react'
 import Mouse from "../assets/mouse.png"
-import { Link } from 'react-router-dom'
 import { BiMoney } from 'react-icons/bi'
 import { motion } from 'framer-motion'
 
